@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .bg-primary {
+      @apply bg-[#5f6FFF];
+    }
+  }
+  
+.active hr{
+    @apply block
+}
